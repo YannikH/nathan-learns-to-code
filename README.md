@@ -59,6 +59,6 @@ Adding strings together in code is called string concatenation.
 
 Now that you've taught a computer how to greet people, the next logical step is teach the computer to be prejudicial.
 
-Copy your `helloPerson` function from 1B, and rewrite it to respond with "Fuck you [name]" when the person's name is more than 5 letters.
+Copy your `helloPerson` function from 1B, and rewrite it to respond with "Fuck you [name]" when the person's name is more than 5 letters long.
 
 If you want to know how to find out how long a name is, you can find that information [here!](https://www.w3schools.com/jsref/jsref_length_string.asp)
