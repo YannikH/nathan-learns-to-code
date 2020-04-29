@@ -27,4 +27,4 @@ You can write your code in an editor and copy-paste it in to the console of your
 
 *Ready? Well let's get to it!*
 
-You'll find numbered assignments in the folders in this repository, each one contains a readme.md with instructions that you can read directly on the github website!
+## You'll find numbered assignments in the folders in this repository, each one contains a readme.md with instructions that you can read directly on the github website!
