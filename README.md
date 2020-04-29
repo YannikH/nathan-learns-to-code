@@ -54,3 +54,11 @@ The function should be called `helloPerson`, and I should be able to call it usi
 
 This will involve writing a function, and adding to strings together. Fortunately, you can just combine strings with `+`, there's other better ways to do it that you'll learn in the future, but for now let's just keep it simple. Example of adding strings: `console.log('Hello ' + 'world!')`
 Adding strings together in code is called string concatenation.
+
+**1C: Rude responses?**
+
+Now that you've taught a computer how to greet people, the next logical step is teach the computer to be prejudicial.
+
+Copy your `helloPerson` function from 1B, and rewrite it to respond with "Fuck you [name]" when the person's name is more than 5 letters.
+
+If you want to know how to find out how long a name is, you can find that information [here!](https://www.w3schools.com/jsref/jsref_length_string.asp)
