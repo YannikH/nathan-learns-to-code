@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NLTC Template</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+      html,body,.container {
+        height: 100%;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .materialize-textarea {
+        min-height: 300px !important;
+      }
+      .row.footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h4>You can copy paste code in the text box below</h4>
+        <textarea name="name" rows="8" cols="80" id="codeInput" class="materialize-textarea"></textarea>
+        <a class="waves-effect waves-light btn" onClick="evalCode()">Run code</a>
+      </div>
+      <div class="row footer">
+        <h5> <i class="material-icons">arrow_downward</i> and don't forget to open the console with f12 <i class="material-icons">arrow_downward</i> </h5>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    function evalCode() {
+      const boxText = document.querySelector('#codeInput').value
+      eval(boxText)
+    };
+
+    // IF YOU DON'T WANT TO USE THE EDITOR ON THE SITE, JUST WRITE YOUR CODE HERE
+  </script>
+</html>
