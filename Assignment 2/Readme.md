@@ -1,5 +1,6 @@
 # Assignment 2 - Variables & Arrays
 **2A. Let's do the math!**
+
 Ok so let's use a freaking variable. A variable is basically just a little box for a value, it's like a label you file something under for you to get it from later. In javascript we generally use the keyword `let` the first time we tell the computer about a variable(this is called declaration).
 
 An example of a variable in use would be:
@@ -13,6 +14,7 @@ console.log('there are ' + weeksInAYear + ' weeks in a year!')
 Write a piece of code that makes a variable called `myCountingVariable` and give it a value of 0, then make some other variables that have numbers as their value, and add them, multiply them, subtract and divide them however you feel fit. Honestly just do *anything* with variables and print it to the console, like adding two numbers stored in variables together and printing it.
 
 **2B. Remembering who we greeted.**
+
 In this assignment, we want you to re-take the code from assignment 1B. If you don't think your code for that assignment was very nice, you can just take this code.
 ```
 function helloPerson(name) {
@@ -29,6 +31,7 @@ helloPerson('Nicholas') // should print "Hello Nicholas! Jacob just got here!"
 ```
 
 **2C. We're not a goldfish, we can remember more than one name**
+
 Holy shit we're diving in to arrays now, this one is gonna be a fair bit harder than what we had before.
 
 If you want a variable to be a list of stuff, like a list of names, you'll most commonly use an array. Now in theory we could talk a lot about what an array is, how it works in different languages, and when to use it, but we won't do that because let's just write a goddamn array first.
