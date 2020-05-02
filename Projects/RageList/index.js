@@ -1,4 +1,4 @@
 const addRage = () => {
-    const rage = document.getElementById("rageInput").value
-    console.log(rage)
+    const rageInput = document.getElementById("rageInput").value
+    console.log(rageInput)
 }
