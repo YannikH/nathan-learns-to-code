@@ -48,7 +48,7 @@ h1 {
     border-radius: 4px;
 }
 
-#rageButton {
+#addRageButton {
 	-moz-box-shadow:inset 0px 34px 0px -15px #b54b3a;
 	-webkit-box-shadow:inset 0px 34px 0px -15px #b54b3a;
 	box-shadow:inset 0px 34px 0px -15px #b54b3a;
@@ -62,23 +62,30 @@ h1 {
 	padding: 9px 18px;
 	text-shadow:0px -1px 0px #7a2a1d;
 }
-#rageButton:hover {
+#addRageButton:hover {
 	background-color:#b34332;
 }
-#rageButton:active {
+#addRageButton:active {
 	position:relative;
 	top:1px;
 }
 
-        
-h2 {
-    margin-top: 30px;
-    width: 35%;
-    font-size: 2em;
-}
-        
 #listContainer {
-    list-style-type: none;
-    font-size: 1.5em;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
 }
 
+#listContainer > h2 {
+    width: 35%;
+    font-size: 2em;
+    flex: 0 0 100%;
+    text-decoration: underline;
+}
+
+#listContainer > ul {
+    list-style-type: none;
+    font-size: 1.7em;
+    flex: 0 0 100%;
+}
